@@ -39,7 +39,7 @@ git commit -m "any message"
 git restore --staged <FILE_PATH_NAME>
 ```
 
-## Move all files from staged chamges to changes
+## Move all files from staged changes to changes
 ```bash
 git restore --staged .
 ```
@@ -75,4 +75,29 @@ git push -u origin main
 ## Push all updates to online repo(GitHub) [All times]
 ```bash
 git push
+```
+
+## Get a list of all connected repos
+```bash
+git remote -v
+```
+
+## Change a remote repos
+```bash
+git remote set-url <given_name> <URL>
+```
+
+## Check the repo status
+```bash
+git status
+```
+
+## Check online linked repos
+```bash
+git remote -v
+```
+
+## change online linked repo
+```bash
+git remote set-url <origin> <URL>
 ```
